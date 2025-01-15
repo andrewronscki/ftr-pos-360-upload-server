@@ -1,6 +1,4 @@
 import { uploadImage } from '@/app/functions/upload-image'
-import { db } from '@/infra'
-import { schema } from '@/infra/db/schemas'
 import { isRight, unwrapEither } from '@/shared/either'
 import type { FastifyPluginAsync } from 'fastify'
 import { z } from 'zod'

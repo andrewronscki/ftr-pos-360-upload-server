@@ -1,6 +1,5 @@
 import { getUploads } from '@/app/functions/get-uploads'
-import { uploadImage } from '@/app/functions/upload-image'
-import { isRight, unwrapEither } from '@/shared/either'
+import { unwrapEither } from '@/shared/either'
 import type { FastifyPluginAsync } from 'fastify'
 import { z } from 'zod'
 
