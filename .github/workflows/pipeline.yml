@@ -70,7 +70,7 @@ jobs:
           # exit-code: "1"
           ignore-unfixed: true
           vuln-type: "os,library"
-          severity: "CRITICAL,HIGHT,MEDIUM,LOW"
+          severity: "CRITICAL,HIGH"
 
       - name: Build and push image to AWS ECR
         uses: docker/build-push-action@v6
